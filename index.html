@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		html,body {
+			height: 1005；
+		}
+		.wrap {
+			width: 100%;
+			/*height: 2000px;*/
+		}
+		.wrap .leftbar {
+			width: 20%;
+			background-color: grey;
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			text-align: center;
+		}
+		.wrap .leftbar li {
+			height: 100px;
+			line-height: 100px;
+		}
+		.wrap .leftbar li:hover {
+			background-color: #999;
+		}
+		.wrap .main {
+			margin-left: 20%;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="leftbar">
+			<ul>
+				<li>侧边栏a</li>
+				<li>侧边栏b</li>
+				<li>侧边栏c</li>
+				<li>侧边栏d</li>
+			</ul>
+		</div>
+		<div class="main">
+			侧边栏a侧边栏a侧边栏a
+			<input type="button" value="click">
+		</div>
+	</div>
+</body>
+</html>
